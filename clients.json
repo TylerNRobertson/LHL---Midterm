@@ -9,5 +9,6 @@
     "region" : "province"
   },
   "telephone" : "telnumner",
+  "email" : "emailaddress",
   "orderhistoryID" : "orderhistoryID"
 }
