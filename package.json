@@ -10,10 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/TylerNRobertson/LHL---Midterm.git"
   },
-  "author": "",
+  "author": "Tyler Robertson and Bernie Roach",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TylerNRobertson/LHL---Midterm/issues"
   },
-  "homepage": "https://github.com/TylerNRobertson/LHL---Midterm#readme"
+  "homepage": "https://github.com/TylerNRobertson/LHL---Midterm#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "chance": "^1.0.11",
+    "cookie-session": "^2.0.0-beta.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "knex": "^0.13.0",
+    "method-override": "^2.3.10"
+  }
 }
