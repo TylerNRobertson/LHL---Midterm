@@ -1,5 +1,5 @@
 {
-  "id": "clienID",
+  "id": "clientID",
   "firstName" : "clientfirstname",
   "lastName" : "clientlastname",
   "address" : {
@@ -8,7 +8,7 @@
     "postalCode" : "potalcode",
     "region" : "province"
   },
-  "telephone" : "telnumner",
+  "telephone" : "telnumber",
   "email" : "emailaddress",
   "orderhistoryID" : "orderhistoryID"
 }

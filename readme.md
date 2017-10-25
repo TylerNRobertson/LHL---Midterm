@@ -16,6 +16,7 @@ Some of these stories might be contradictory or too complicated.
   + As a _CUSTOMER_ I want to **ADD** an _ORDER LINE_
   + As a _CUSTOMER_ I want to **MODIFY** my _ORDER LINE_ _QUANTITY_
   + As a _CUSTOMER_ I want to **MODIFY** my _ORDER LINE_ _FOOD_
+  + As a _CUSTOMER_ I want to **MODIFY** my _ORDER_ by adding _COUPON_
   + As a _CUSTOMER_ I want to **CANCEL** my _ORDER LINE_
   + As a _CUSTOMER_ I want to **PAY** my _ORDER_
 
@@ -23,7 +24,7 @@ Some of these stories might be contradictory or too complicated.
 * As a _CUSTOMER_ I want to **SEARCH** _FOOD_ by _PRICE_, _FOOD NAME_ and/or _FOOD TYPE_
 * As a _CUSTOMER_ I want to **SORT** a _MENU_ and _MENU ITEMS_ by _PRICE_
 * As a _CUSTOMER_ I want to **SORT** a _MENU_ and _MENU ITEMS_ by _PRICE_
-
+* As a _CUSTOMER_ I want to **SORT** a _MENU_ and _MENU ITEMS_ by _FOOD CATEGORY_
 
 
 # Vendor user stories
@@ -39,6 +40,7 @@ Some of these stories might be contradictory or too complicated.
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _PRICE_
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _FOOD_
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _QUANTITY_
+  + As a _VENDOR_ I want to **ADD** a _MENU ITEM_ _FOOD CATEGORY_
 
 
 
@@ -46,9 +48,3 @@ Some of these stories might be contradictory or too complicated.
 Do for food
 Do for Order
 Do for Order History
-
-
-
-
-
-
