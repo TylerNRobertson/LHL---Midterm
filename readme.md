@@ -1,3 +1,5 @@
+# USER STORIES
+
 List of user Stories
 
 Nouns are in _italics_
@@ -5,7 +7,7 @@ Verbs are in **bold**
 
 Some of these stories might be contradictory or too complicated.
 
-# Customer user stories
+## Customer user stories
 
 * As a _CUSTOMER_ I want to **VIEW** a _MENU_
 * As a _CUSTOMER_ I want to **SELECT** a _MENU_ by _CATEGORY_
@@ -29,7 +31,7 @@ Some of these stories might be contradictory or too complicated.
 
 
 
-# Vendor user stories
+## Vendor user stories
 
 
 * As a _VENDOR_ I want to **CREATE** a _MENU_
@@ -39,11 +41,10 @@ Some of these stories might be contradictory or too complicated.
   + As a _VENDOR_ I want to **REMOVE** a _CATEGORY_ on a _MENU_
 
 * As a _VENDOR_ I want to **ADD** a _MENU ITEM LIST_ on a _MENU_
-* As a _VENDOR_ I want to **SORT/SELECT** a _MENU ITEM LIST_ on a _MENU_ by _FOOD_ "QTYORDERED"
-
+* As a _VENDOR_ I want to **SORT/SELECT** a _MENU ITEM LIST_ on a _MENU_ by _FOOD_ "POPULARITYINDEX"
   + As a _VENDOR_ I want to **ADD** a _MENU ITEM_ on a _MENU_
   + As a _VENDOR_ I want to **REMOVE** a _MENU ITEM_ on a _MENU_
-  + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ on a _MENU_
+
 
 * As a _VENDOR_ I want to **CREATE** a _MENU ITEM_ on a _MENU_ from _FOOD_
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _PRICE_
@@ -80,9 +81,12 @@ Some of these stories might be contradictory or too complicated.
 * As a _VENDOR_ I want to **SEARCH** for an _ORDER_ by _FOOD_
 
 
+# USER SCENARIOS
+
+Given  When  Then
 
 
-
+GIVEN an _ORDER_ is **PLACED** THEN **VERIFY** the _FOOD_ on the _ORDER_
 
 
 
