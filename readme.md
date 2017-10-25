@@ -92,9 +92,51 @@ Some of these stories might be contradictory or too complicated.
 # USER SCENARIOS
 
 Given  When  Then
+Our order is kind of like a shopping cart (maybe we should call it a shopping cart)
+Instead of PLACING an ORDER we should CHECKOUT a shopping cart??
 
 
-GIVEN an _ORDER_ is **PLACED** THEN **VERIFY** the _FOOD_ on the _ORDER_
+## Customer(ish) Scenarios
+
+* GIVEN an _ORDER_ is **PLACED**
+  + THEN **VERIFY** the _FOOD_ on the _ORDER_
+* GIVEN a _CUSTOMER_ logsin/gets to home page
+  + THEN _CUSTOMER_ **SEES** the _MENU_
+* GIVEN a _CUSTOMER_ SELECTS a _MENU ITEM_
+  + THEN an _ORDER_ is CREATED/UPDATED
+  + AND an _ORDER LIST_ is created/updated
+  + AND an _ORDER ITEM_ is **COPIED** from _FOOD_ on _MENU ITEM_
+* GIVEN a _CUSTOMER_ **REMOVES** an _ORDER ITEM_ from the _ORDER ITEM LIST_
+  + THEN _ORDER ITEM_ is **REMOVED** from _ORDER ITEM LIST_
+* GIVEN an _ORDER ITEM_ is **MODIFIED**
+  + THEN _ORDER ITEM_ is **VERIFIED**
+* GIVEN a _CUSTOMER_ **PLACES** an _ORDER_
+  + THEN the _ORDER_ "STATUS" is set to "PLACED"
+* GIVEN an _ORDER_ "STATUS" is set to "PLACED"
+  + THEN an _ORDER_ is **VERIFIED**
+* GIVEN an _ORDER_ is **BEING VERIFIED**
+  + THEN _ORDER ITEMS_ are **VERIFIED**
+* GIVEN an _ORDER ITEM_ is **VERIFIED**
+  + THEN the _ORDER ITEM_ has "PICKUPTIME" is determined
+  + AND _ORDER ITEM_ "PRICE" is determined
+* GIVEN all _ORDER ITMES_ of an _ORDER_ are **VERIFIED**
+  + THEN the _ORDER_ is **VERIFIED**
+  + AND _ORDER_ "PICKUPTIME" is determined
+  + AND _ORDER_ "PROCE" is determined
+* GIVEN an _ORDER_ has been **PLACED** by a _CUSTOMER_ and **VERIFIED**
+  + THEN the _CUSTOMER_ can **ACCEPT** or **REJECT** the _ORDER_
+* GIVEN a _CUSTOMER_ **ACCEPTS** an _ORDER_
+  + THEN a _CUSTOMER_ **PAYS** the _ORDER_
+* GIVEN a _CUSTOMER_ **ACCEPTS** AND **PAYS** the _ORDER_
+  + THEN the _ORDER_ "STATUS" is set to **STARTED** or **TAKEN**
+* GIVEN an _ORDER_ status is set to "DELIVERED"
+  + THEN for every _FOOD ITEM_ found on the _ORDER_ **UPDATE** the "POPULARITYINDEX"
+
+
+##Vendor(ish) Scenarios
+
+
+
 
 
 
