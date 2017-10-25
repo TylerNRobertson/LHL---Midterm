@@ -29,21 +29,33 @@ Some of these stories might be contradictory or too complicated.
 # Vendor user stories
 
 
-* As a _VENDOR_ I want to **ADD** a _CATEGORY_ on a _MENU_
-* As a _VENDOR_ I want to **REMOVE** a _CATEGORY_ on a _MENU_
+* As a _VENDOR_ I want to **CREATE** a _MENU_
+* As a _VENDOR_ I want to **REMOVE** a _MENU_
+* As a _VENDOR_ I want to **MODIFY** a _MENU_
+  + As a _VENDOR_ I want to **ADD** a _CATEGORY_ on a _MENU_
+  + As a _VENDOR_ I want to **REMOVE** a _CATEGORY_ on a _MENU_
+
 * As a _VENDOR_ I want to **ADD** a _MENU ITEM LIST_ on a _MENU_
   + As a _VENDOR_ I want to **ADD** _MENU ITEMS_ to a _MENU_
   + As a _VENDOR_ I want to **REMOVE** a _MENU ITEM_ on a _MENU_
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ on a _MENU_
+
 * As a _VENDOR_ I want to **CREATE** a _MENU ITEM_ on a _MENU_ from _FOOD_
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _PRICE_
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _FOOD_
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _QUANTITY_
 
+* As a _VENDOR_ I want to **CREATE**  _FOOD_
+* As a _VENDOR_ I want to **REMOVE**  _FOOD_
+* As a _VENDOR_ I want to **MODIFY**  _FOOD_
+  + As a _VENDOR_ I want to **MODIFY** a _FOOD_ _PRICE_
+  + As a _VENDOR_ I want to **MODIFY** a _FOOD_ _NAME_
+  + As a _VENDOR_ I want to **MODIFY** a _FOOD_ _QUANTITY_
+  + As a _VENDOR_ I want to **MODIFY** a _FOOD_ _PREP TIME_
+  + As a _VENDOR_ I want to **MODIFY** a _FOOD_ _CATEGORY_
 
 
 
-Do for food
 Do for Order
 Do for Order History
 
