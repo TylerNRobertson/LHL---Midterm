@@ -22,7 +22,7 @@ Some of these stories might be contradictory or too complicated.
 * As a _CUSTOMER_ I want to **TRACK** my _ORDER_
 * As a _CUSTOMER_ I want to **SEARCH** _FOOD_ by _PRICE_, _FOOD NAME_ and/or _FOOD TYPE_
 * As a _CUSTOMER_ I want to **SORT** a _MENU_ and _MENU ITEMS_ by _PRICE_
-* As a _CUSTOMER_ I want to **SORT** a _MENU_ and _MENU ITEMS_ by _PRICE_
+* As a _CUSTOMER_ I want to **SORT** a _MENU_ and _MENU ITEMS_ by _CATEGORY_
 
 
 
@@ -45,14 +45,19 @@ Some of these stories might be contradictory or too complicated.
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _FOOD_
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _QUANTITY_
 
-* As a _VENDOR_ I want to **CREATE**  _FOOD_
-* As a _VENDOR_ I want to **REMOVE**  _FOOD_
-* As a _VENDOR_ I want to **MODIFY**  _FOOD_
+* As a _VENDOR_ I want to **CREATE** a _FOOD_
+* As a _VENDOR_ I want to **REMOVE** a _FOOD_
+* As a _VENDOR_ I want to **MODIFY** a _FOOD_
   + As a _VENDOR_ I want to **MODIFY** a _FOOD_ _PRICE_
   + As a _VENDOR_ I want to **MODIFY** a _FOOD_ _NAME_
   + As a _VENDOR_ I want to **MODIFY** a _FOOD_ _QUANTITY_
   + As a _VENDOR_ I want to **MODIFY** a _FOOD_ _PREP TIME_
   + As a _VENDOR_ I want to **MODIFY** a _FOOD_ _CATEGORY_
+
+
+* As a _VENDOR_ I want to **CREATE**  an _ORDER_
+* As a _VENDOR_ I want to **REMOVE**  an _ORDER_
+* As a _VENDOR_ I want to **MODIFY**  an _ORDER_
 
 
 
