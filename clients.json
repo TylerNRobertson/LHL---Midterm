@@ -11,4 +11,5 @@
   "telephone" : "telnumner",
   "email" : "emailaddress",
   "orderhistoryID" : "orderhistoryID"
+  "rating" : "clientrating - maybe an object of ratings?"
 }

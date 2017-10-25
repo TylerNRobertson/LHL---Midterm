@@ -56,10 +56,19 @@ Some of these stories might be contradictory or too complicated.
 
 
 * As a _VENDOR_ I want to **CREATE**  an _ORDER_
-* As a _VENDOR_ I want to **REMOVE**  an _ORDER_
+* As a _VENDOR_ I want to **CANCEL**  an _ORDER_
 * As a _VENDOR_ I want to **MODIFY**  an _ORDER_
+  + As a _VENDOR_ I want to **MODIFY** an _ORDER_ _DELIVERY TIME_
+  + As a _VENDOR_ I want to **MODIFY** an _ORDER_ _CLIENT_
+  + As a _VENDOR_ I want to **MODIFY** an _ORDER_ _PRICE_
+  + As a _VENDOR_ I want to **MODIFY** an _ORDER_ _OVERALL STATUS_
+  + As a _VENDOR_ I want to **MODIFY** an _ORDER_ _PREP STATUS_
+  + As a _VENDOR_ I want to **MODIFY** an _ORDER_ _DELIVERY STATUS_
+  + As a _VENDOR_ I want to **MODIFY** an _ORDER_ _PAY STATUS_
 
 
+* As a _VENDOR_ I want to **VIEW**  an _ORDER_
+* As a _VENDOR_ I want to **VIEW** _ORDER ITEMS of an _ORDER_
 
 Do for Order
 Do for Order History
