@@ -11,4 +11,9 @@
   "telephone" : "telnumber",
   "email" : "emailaddress",
   "orderhistoryID" : "orderhistoryID"
+<<<<<<< HEAD
 }
+=======
+  "rating" : "clientrating - maybe an object of ratings?"
+}
+>>>>>>> f8b1366f1fa7471ac0ffdeb9bf33b6787b1f14cd
