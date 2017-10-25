@@ -1,0 +1,13 @@
+{
+  "id": "clienID",
+  "firstName" : "clientfirstname",
+  "lastName" : "clientlastname",
+  "address" : {
+    "street" : "streetname",
+    "city" : "cityname",
+    "postalCode" : "potalcode",
+    "region" : "province"
+  },
+  "telephone" : "telnumner",
+  "orderhistoryID" : "orderhistoryID"
+}

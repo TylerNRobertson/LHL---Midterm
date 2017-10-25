@@ -1,0 +1,19 @@
+OCt 25
+Figure out our MVP (minimum viable product)
+figure out the core
+
+iterate the following.
+
+Write user stories.
+A list of stories for client
+A list of stories for vendor
+
+Write user scenarios.
+A list of scenarios for client
+A list of scenarios for vendor.
+
+
+We need to determine the screens for user
+We need to determine the screens for vendor/owner
+We need to determine the actions for user
+We need to determine the actions for vendor/owner

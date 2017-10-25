@@ -1,0 +1,7 @@
+{
+  "foodID" : "foodID",
+  "name" : "foodname",
+  "menucategory" : [ "breakfast" , "appetizer", "NUKE!" ],
+  "quantity" : "quantity"
+  "foodCategory" :
+}
