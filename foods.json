@@ -2,7 +2,8 @@
   "foodID" : "foodID",
   "name" : "foodname",
   "menucategory" : [ "breakfast" , "appetizer", "NUKE!" ],
-  "quantity" : "quantity"
+  "quantity" : "quantity",
   "foodCategory" : "vegetable",
-  "preptime" : "20"
+  "preptime" : "20",
+  "ORDERed": "qty ordered"
 }

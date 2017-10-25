@@ -17,6 +17,12 @@ Some of these stories might be contradictory or too complicated.
 * As a _CUSTOMER_ I want to **MODIFY** my _ORDER_
   + As a _CUSTOMER_ I want to **ADD** an _ORDER LINE_
   + As a _CUSTOMER_ I want to **MODIFY** my _ORDER LINE_ _QUANTITY_
+  + As a _CUSTOMER_ I want to **MODIFY** my _ORDER LINE_ _FOOD_
+  + As a _CUSTOMER_ I want to **MODIFY** my _ORDER_ by adding _COUPON_
+  + As a _CUSTOMER_ I want to **CANCEL** my _ORDER LINE_
+  + As a _CUSTOMER_ I want to **PAY** my _ORDER_
+
+* As a _CUSTOMER_ I want to **TRACK** my _ORDER_
   + As a _CUSTOMER_ I want to **REMOVE** my _ORDER LINE_
   + As a _CUSTOMER_ I want to **PLACE** an _ORDER_
     - As a _CUSTOMER_ I want to **MODIFY** an _ORDER_ _CUSTOMER REQUEST_ to "PLACE"
@@ -27,11 +33,13 @@ Some of these stories might be contradictory or too complicated.
 * As a _CUSTOMER_ I want to **TRACK/VIEW** an _ORDER_
 * As a _CUSTOMER_ I want to **SEARCH** _FOOD_ by _PRICE_, _FOOD NAME_ and/or _FOOD TYPE_
 * As a _CUSTOMER_ I want to **SORT** a _MENU_ and _MENU ITEMS_ by _PRICE_
+* As a _CUSTOMER_ I want to **SORT** a _MENU_ and _MENU ITEMS_ by _PRICE_
 * As a _CUSTOMER_ I want to **SORT** a _MENU_ and _MENU ITEMS_ by _CATEGORY_
 
 
-
 ## Vendor user stories
+=======
+# Vendor user stories
 
 
 * As a _VENDOR_ I want to **CREATE** a _MENU_
@@ -49,6 +57,7 @@ Some of these stories might be contradictory or too complicated.
 * As a _VENDOR_ I want to **CREATE** a _MENU ITEM_ on a _MENU_ from _FOOD_
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _PRICE_
   + As a _VENDOR_ I want to **MODIFY** a _MENU ITEM_ _QUANTITY_
+  + As a _VENDOR_ I want to **ADD** a _MENU ITEM_ _FOOD CATEGORY_
 
 * As a _VENDOR_ I want to **CREATE** a _FOOD_
 * As a _VENDOR_ I want to **REMOVE** a _FOOD_
@@ -80,13 +89,13 @@ Some of these stories might be contradictory or too complicated.
 * As a _VENDOR_ I want to **SEARCH** for an _ORDER_ by _CUSTOMER_
 * As a _VENDOR_ I want to **SEARCH** for an _ORDER_ by _FOOD_
 
-
 # USER SCENARIOS
 
 Given  When  Then
 
 
 GIVEN an _ORDER_ is **PLACED** THEN **VERIFY** the _FOOD_ on the _ORDER_
+
 
 
 
